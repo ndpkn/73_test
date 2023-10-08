@@ -1,0 +1,10 @@
+.cities {
+  max-height: 90vh;
+  overflow: auto;
+  &__item {
+    >a {
+      color: inherit;
+      text-decoration: none;
+    }
+  }
+}
